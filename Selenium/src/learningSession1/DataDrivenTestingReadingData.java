@@ -8,7 +8,7 @@ import org.testng.annotations.DataProvider;
 
 public class DataDrivenTestingReadingData {
 	WebDriver driver;
-	
+	//cat122s
 	@Test(dataProvider = "TestDataFeed")
 	public void facebookLogin(String uname, String pwd) {
 		System.setProperty("webdriver.chrome.driver", "/Users/princearthur/Downloads/chromedriver_mac64 (3) 2/chromeDriver");
