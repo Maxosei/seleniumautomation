@@ -3,7 +3,7 @@ package learningSession1;
 public class Car implements Vehicle {
 	private int gear =1;
 	private int speed = 0;
-	//firstcommit1
+	//firstcommiit2
 	public void changeGear(int gear) {
 		
 		this.gear = gear;
