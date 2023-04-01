@@ -4,6 +4,7 @@ public class Car implements Vehicle {
 	private int gear =1;
 	private int speed = 0;
 	//firstcommiit2
+	//firtstcommit3
 	public void changeGear(int gear) {
 		
 		this.gear = gear;
