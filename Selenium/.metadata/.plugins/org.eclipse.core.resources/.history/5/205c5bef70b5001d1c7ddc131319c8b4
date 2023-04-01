@@ -1,0 +1,23 @@
+package Tutorial;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class Session9 {
+	
+@Test
+public void enterUserandPassword() {
+	System.setProperty("webdriver.chrome.driver", "//Users//princearthur//Downloads//chromedriver_mac64 (4)//chromedriver");
+	WebDriver driver = new ChromeDriver();
+	driver.manage().window().maximize();
+	
+	driver.get("https://facebook.com/");
+	driver.findElement(By.name("pass")).sendKeys("Prince Arthur");
+	driver.findElement(By.name("name")).sendKeys("Princearthur2016@gmail.com");
+	System.out.println("User name and password entered in facebook page");
+	driver.quit();
+}
+
+}

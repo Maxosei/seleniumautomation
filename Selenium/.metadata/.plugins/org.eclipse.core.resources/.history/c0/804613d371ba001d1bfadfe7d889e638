@@ -1,0 +1,26 @@
+package Tutorial;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class EdurekaClass {
+
+	public static void main(String[] args) throws Exception {
+		System.setProperty("webdrive.chrome.driver", "//Users//princearthur//Downloads//chromedriver_mac64 (4)//chromedriver\"");
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		
+		driver.get("https://facebook.com/");
+		WebElement createAccountBtn = driver.findElement(By.id("u_0_0_bq"));
+		System.out.println(createAccountBtn);
+		createAccountBtn.click();
+
+		//*[@id="u_0_0_bq"]
+		Thread.sleep(1000);
+		driver.close();
+		
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Tutorial.IRetryAnalyzer&apos; to &apos;RetryAnalyzer&apos;&#x0A;- Original project: &apos;Selenium2&apos;&#x0A;- Original element: &apos;Tutorial.IRetryAnalyzer&apos;&#x0A;- Renamed element: &apos;Tutorial.RetryAnalyzer&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;IRetryAnalyzer&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Tutorial{IRetryAnalyzer.java[IRetryAnalyzer" matchStrategy="1" name="RetryAnalyzer" qualified="false" references="true" similarDeclarations="false" stamp="1677431893941" textual="false" version="1.0"/>
+</session>
